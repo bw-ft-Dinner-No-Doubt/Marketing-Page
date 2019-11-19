@@ -407,6 +407,11 @@ footer .footerSocials {
   width: 64%;
   margin: 1% auto;
 }
+@media (max-width:780px) {
+  .aboutContent .devAbouts .devDescrip {
+    width: 90%;
+  }
+}
 .aboutContent .devAbouts .devDescrip:nth-child(odd) {
   flex-direction: row;
 }
@@ -434,6 +439,11 @@ footer .footerSocials {
   font-size: 1.8rem;
   margin: 2% 10%;
 }
+@media (max-width:780px) {
+  .aboutContent .devAbouts .devDescrip .devText p {
+    margin: 2%;
+  }
+}
 .aboutContent .devAbouts .devDescrip .devText .contactButton {
   color: white;
   background-color: #3a3a3a;
@@ -444,6 +454,12 @@ footer .footerSocials {
   margin: 0 35%;
   border-radius: 0px;
   border: 1px solid white;
+}
+@media (max-width:780px) {
+  .aboutContent .devAbouts .devDescrip .devText .contactButton {
+    margin: 0 20%;
+    padding: 2.5% 10%;
+  }
 }
 .aboutContent .devAbouts .devDescrip .devText .contactButton:hover {
   background-color: lightgray;

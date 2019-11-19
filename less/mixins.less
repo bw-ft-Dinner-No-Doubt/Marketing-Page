@@ -1,0 +1,27 @@
+.flex(@justify: center){
+    display: flex;
+    justify-content: @justify;
+}
+
+@keyframes hover{
+    from {background-color: darkorange;}
+    to{background-color: red;}
+}
+
+.linkReset(@color){
+    text-decoration: none;
+    color: @color;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.button(@textColor, @backgroundColor, @padding){
+    color: @textColor;
+    background-color: @backgroundColor;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: @padding;
+}

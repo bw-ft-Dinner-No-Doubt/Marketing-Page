@@ -225,6 +225,7 @@ footer {
 }
 footer .footNavBar {
   padding: 2%;
+  width: 20%;
 }
 footer .footNavBar .footerNav {
   display: flex;
@@ -321,6 +322,11 @@ footer .footerSocials {
     width: 90%;
   }
 }
+@media (max-width:780px) {
+  .spinnerArea .spinnerPlaceholder {
+    width: 60%;
+  }
+}
 .spinnerArea .restrauntPref {
   display: flex;
   justify-content: center;
@@ -375,4 +381,11 @@ footer .footerSocials {
 }
 .spinnerArea .restrauntPref .randomizer:hover {
   background-color: cornflowerblue;
+}
+.devAbouts {
+  display: flex;
+  justify-content: center;
+}
+.devImages {
+  width: 15%;
 }

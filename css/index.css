@@ -180,6 +180,11 @@ header {
   color: #ffc300;
   background-color: #3a3a3a;
 }
+@media (max-width: 500px) {
+  header {
+    padding: 5% 2%;
+  }
+}
 header .headIcon {
   font-size: 3rem;
   color: #ffc300;
@@ -201,7 +206,8 @@ header .headerNav {
 }
 @media (max-width:780px) {
   header .headerNav {
-    width: 35%;
+    width: 50%;
+    justify-content: space-around;
   }
 }
 header .headerNav a {
@@ -237,10 +243,20 @@ footer .footNavBar {
   padding: 2%;
   width: 20%;
 }
+@media (max-width:780px) {
+  footer .footNavBar {
+    width: 50%;
+  }
+}
 footer .footNavBar .footerNav {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+@media (max-width:780px) {
+  footer .footNavBar .footerNav {
+    width: 90%%;
+  }
 }
 footer .footNavBar .footerNav a {
   text-decoration: none;
@@ -415,11 +431,26 @@ footer .footerSocials {
 .aboutContent .devAbouts .devDescrip:nth-child(odd) {
   flex-direction: row;
 }
+@media (max-width: 500px) {
+  .aboutContent .devAbouts .devDescrip:nth-child(odd) {
+    flex-direction: column;
+  }
+}
 .aboutContent .devAbouts .devDescrip:nth-child(even) {
   flex-direction: row-reverse;
 }
+@media (max-width: 500px) {
+  .aboutContent .devAbouts .devDescrip:nth-child(even) {
+    flex-direction: column;
+  }
+}
 .aboutContent .devAbouts .devDescrip .devImages {
   width: 250px;
+}
+@media (max-width: 500px) {
+  .aboutContent .devAbouts .devDescrip .devImages {
+    width: 100%;
+  }
 }
 .aboutContent .devAbouts .devDescrip .devText {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

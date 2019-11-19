@@ -148,14 +148,26 @@
 
             &:nth-child(odd){
                 flex-direction: row;
+
+                @media @mobile{
+                    flex-direction: column;
+                }
             }
 
             &:nth-child(even){
                 flex-direction: row-reverse;
+
+                @media @mobile{
+                    flex-direction: column;
+                }
             }
             
             .devImages{
                 width: 250px;
+
+                @media @mobile{
+                    width: 100%;
+                }
             }
 
             .devText{

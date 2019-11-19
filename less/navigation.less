@@ -5,6 +5,10 @@ header{
     color: @orange-yellow;
     background-color: @darkblue-gray;
 
+    @media @mobile{
+        padding: 5% 2%;
+    }
+
 
     .headIcon{
         font-size: 3rem;
@@ -23,7 +27,8 @@ header{
         }
 
         @media @tablet{
-            width: 35%;
+            width: 50%;
+            justify-content: space-around;
         }
 
         a{

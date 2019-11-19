@@ -127,9 +127,57 @@
 }
 
 //Start of About.html css
-.devAbouts{
-    .flex()
-}
-.devImages{
-    width: 15%;
+
+.aboutContent{
+    width: 100%;
+    margin: 0;
+
+    .devAbouts{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        .devDescrip{
+            .flex(flex-start);
+            width: 64%;
+            margin: 1% auto;
+
+            &:nth-child(odd){
+                flex-direction: row;
+            }
+
+            &:nth-child(even){
+                flex-direction: row-reverse;
+            }
+            
+            .devImages{
+                width: 250px;
+            }
+
+            .devText{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                .flex(center);
+                flex-direction: column;
+                align-content: center;
+
+                h2{
+                    font-size: 3.8rem;
+                }
+
+                h3{
+                    font-size: 2.2rem;
+                }
+
+                p{
+                    font-size: 1.8rem;
+                    margin: 2% 10%;
+                }
+
+                .contactButton{
+                    .button(white, @darkblue-gray, 1% 10%);
+                    text-align: center;
+                }
+            }
+        }
+    }
 }

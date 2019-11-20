@@ -448,7 +448,7 @@ footer .footerSocials {
   }
 }
 .aboutContent .devAbouts .devDescrip .devImages {
-  width: 250px;
+  width: 350px;
 }
 @media (max-width: 500px) {
   .aboutContent .devAbouts .devDescrip .devImages {
@@ -465,6 +465,9 @@ footer .footerSocials {
 }
 .aboutContent .devAbouts .devDescrip .devText h2 {
   font-size: 3.8rem;
+}
+.aboutContent .devAbouts .devDescrip .devText a {
+  text-align: center;
 }
 .aboutContent .devAbouts .devDescrip .devText h3 {
   font-size: 2.2rem;

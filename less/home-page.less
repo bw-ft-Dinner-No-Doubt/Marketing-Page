@@ -6,7 +6,7 @@
     .flex();
     flex-direction: row;
     margin        : 1% auto;
-
+    
     @media @mobile {
         width: 90%;
     }
@@ -19,6 +19,8 @@
         width     : 30%;
         text-align: left;
         margin    : 0 1%;
+        padding: 2%;
+        box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.4);
 
         @media @mobile {
             width         : 100%;
@@ -41,14 +43,14 @@
         .button(white, darkorange, 2% 5%);
         display   : block;
         margin-top: 2%;
+        border: 1px solid white;
 
         @media @mobile {
             width: 100%;
         }
 
         &:hover {
-            animation-name    : hover;
-            animation-duration: 1s;
+            background-color: rgb(255, 68, 0);  
         }
     }
 }
@@ -114,6 +116,7 @@
             .button(white, @button-bg, 2% 5%);
             display   : block;
             margin-top: 2%;
+            border: 1px solid white;
 
             @media @mobile{
                 display: block;

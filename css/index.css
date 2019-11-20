@@ -255,7 +255,7 @@ footer .footNavBar .footerNav {
 }
 @media (max-width:780px) {
   footer .footNavBar .footerNav {
-    width: 90%%;
+    width: 90%;
   }
 }
 footer .footNavBar .footerNav a {
@@ -294,6 +294,8 @@ footer .footerSocials {
   width: 30%;
   text-align: left;
   margin: 0 1%;
+  padding: 2%;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.4);
 }
 @media (max-width: 500px) {
   .siteDescription .aboutContent {
@@ -321,6 +323,7 @@ footer .footerSocials {
   padding: 2% 5%;
   display: block;
   margin-top: 2%;
+  border: 1px solid white;
 }
 @media (max-width: 500px) {
   .siteDescription .appDownload {
@@ -328,8 +331,7 @@ footer .footerSocials {
   }
 }
 .siteDescription .appDownload:hover {
-  animation-name: hover;
-  animation-duration: 1s;
+  background-color: #ff4400;
 }
 .spinnerArea {
   width: 80%;
@@ -399,6 +401,7 @@ footer .footerSocials {
   padding: 2% 5%;
   display: block;
   margin-top: 2%;
+  border: 1px solid white;
 }
 @media (max-width: 500px) {
   .spinnerArea .restrauntPref .randomizer {
